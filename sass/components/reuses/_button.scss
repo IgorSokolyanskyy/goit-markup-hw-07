@@ -1,0 +1,58 @@
+.button {
+  width: 200px;
+  height: 50px;
+
+  color: $primary-white-color;
+  background-color: $accent-color;
+  // font-family: inherit;
+  @include buttonSize;
+
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+
+  transition: box-shadow $transition-time $timing-functions;
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+}
+
+// футер
+.footer__button {
+  @include centeredFlex;
+  gap: $gap10;
+}
+// .button__icon {
+//   margin-right: 10px;
+// }
+
+// бэкдроп кнопка залытия
+.backdrop__button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+
+  @include centeredFlex;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+
+  background-color: $primary-background-color;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+
+  transition: fill $transition-time $timing-functions;
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    fill: $accent-color;
+  }
+}
+
+// модальная кнопка
+.button--big {
+  @include centeredFlex;
+  margin-right: auto;
+  margin-left: auto;
+}

@@ -16,7 +16,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
   <body>
@@ -97,8 +97,8 @@
                   <use href="./images/icons.svg/sprite-svg.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h3 class="subtitle">Пунктуальность</h3>
-              <p class="text">
+              <h3 class="description-card__subtitle">Пунктуальность</h3>
+              <p class="description-card__text">
                 Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
               </p>
             </li>
@@ -109,8 +109,8 @@
                   <use href="./images/icons.svg/sprite-svg.svg#icon-diagram"></use>
                 </svg>
               </div>
-              <h3 class="subtitle">Планирование</h3>
-              <p class="text">
+              <h3 class="description-card__subtitle">Планирование</h3>
+              <p class="description-card__text">
                 Равным образом консультация с широким активом в значительной степени обуславливает.
               </p>
             </li>
@@ -121,8 +121,8 @@
                   <use href="./images/icons.svg/sprite-svg.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h3 class="subtitle">Современные технологии</h3>
-              <p class="text">
+              <h3 class="description-card__subtitle">Современные технологии</h3>
+              <p class="description-card__text">
                 Значимость этих проблем настолько очевидна, что реализация плановых заданий.
               </p>
             </li>
@@ -440,7 +440,7 @@
     <!-- подвал -->
     <footer class="footer">
       <div class="footer__page container">
-        <div class="address">
+        <div class="column-address">
           <a class="logo footer__logo" href=""
             >Web<span class="logo__text logo__text--inverse">Studio</span>
           </a>
@@ -452,22 +452,22 @@
                   href="https://goo.gl/maps/k4oQV7uyQXokf8jJ6"
                   target="_blank"
                   rel="noreferrer noopener"
-                  >г. Киев, пр-т Леси Украинки, 26</a
-                >
+                  >г. Киев, пр-т Леси Украинки, 26
+                </a>
               </li>
               <li class="address__item">
-                <a class="link footer__link" href="mailto:info@devstudio.com"
+                <a class="address__contacts" href="mailto:info@devstudio.com"
                   >info@devstudio.com
                 </a>
               </li>
               <li class="address__item">
-                <a class="link footer__link" href="tel:+380961111111">+38 096 111 11 11</a>
+                <a class="address__contacts" href="tel:+380961111111">+38 096 111 11 11</a>
               </li>
             </ul>
           </address>
         </div>
 
-        <div class="join">
+        <div class="column-join">
           <h3 class="join__title">присоединяйтесь</h3>
           <ul class="networks__list">
             <li class="networks__item">
@@ -501,12 +501,12 @@
           </ul>
         </div>
 
-        <div class="subscribe">
+        <div class="column-subscribe">
           <h3 class="subscribe__title">Подпишитесь на рассылку</h3>
           <form class="form-footer">
             <input class="form-footer__input" type="email" name="mail" placeholder="E-mail" />
 
-            <button type="submit" class="button footer__button">
+            <button class="button footer__button" type="submit">
               Подписаться
               <span class="button__icon"></span
               ><svg width="24" height="24">

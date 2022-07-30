@@ -13,12 +13,11 @@ html {
 }
 
 body {
+  font-family: Roboto, sans-serif;
+  font-family: 'Raleway';
+
   background-color: var(--primary-white-color);
   color: var(--primary-text-colot);
-
-  /* padding-top: 80px; */
-
-  font-family: Roboto, sans-serif;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -171,12 +170,9 @@ a {
 .link__icon {
   margin-right: 10px;
 }
-.link__icon {
-  margin-right: 10px;
-}
+
 /* .icon-mail::before {
   content: '';
-
   width: 16px;
   height: 12px;
   margin-right: 10px;
@@ -186,7 +182,6 @@ a {
 
 /* .icon-tel::before {
   content: '';
-
   width: 10px;
   height: 16px;
   margin-right: 10px;
@@ -295,12 +290,9 @@ a {
 /* .item-description::before {
   display: block;
   content: '';
-
   height: 120px;
-
   margin-bottom: 30px;
   border-radius: 4px;
-
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -310,14 +302,12 @@ a {
 /* .icon-antenna::before {
   background-image: url(../images/icons.svg/antenna.svg);
 }
-
 .icon-clock::before {
   background-image: url(../images/icons.svg/clock.svg);
 }
 .icon-rectangel::before {
   background-image: url(../images/icons.svg/rectangle.svg);
 }
-
 .icon-astronaut::before {
   background-image: url(../images/icons.svg/astronaut.svg);
 } */
@@ -418,7 +408,6 @@ a {
 }
 
 /* соц-сети-команды */
-
 .networks__list {
   display: flex;
   justify-content: center;

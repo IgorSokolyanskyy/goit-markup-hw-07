@@ -1,0 +1,32 @@
+/* футер */
+.footer {
+  background-color: $footer-background-color;
+}
+
+.footer__page {
+  display: flex;
+
+  align-items: baseline;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.address__item {
+  margin-bottom: 9px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.address__location {
+  color: $primary-white-color;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.address__contacts {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}

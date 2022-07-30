@@ -16,7 +16,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
   <body>
@@ -70,21 +70,21 @@
       <section class="section-portfolio">
         <div class="container">
           <h1 hidden>Наши проекты</h1>
-          <ul class="button__list">
-            <li class="button__item">
-              <button class="button__button" type="button">Все</button>
+          <ul class="portfolio-button__list">
+            <li class="portfolio-button__item">
+              <button class="portfolio-button__button" type="button">Все</button>
             </li>
-            <li class="button__item">
-              <button class="button__button" type="button">Веб-сайты</button>
+            <li class="portfolio-button__item">
+              <button class="portfolio-button__button" type="button">Веб-сайты</button>
             </li>
-            <li class="button__item">
-              <button class="button__button" type="button">Приложения</button>
+            <li class="portfolio-button__item">
+              <button class="portfolio-button__button" type="button">Приложения</button>
             </li>
-            <li class="button__item">
-              <button class="button__button" type="button">Дизайн</button>
+            <li class="portfolio-button__item">
+              <button class="portfolio-button__button" type="button">Дизайн</button>
             </li>
-            <li class="button__item">
-              <button class="button__button" type="button">Маркетинг</button>
+            <li class="portfolio-button__item">
+              <button class="portfolio-button__button" type="button">Маркетинг</button>
             </li>
           </ul>
 
@@ -93,7 +93,7 @@
             <li class="card-set__item">
               <!-- актив -->
               <article class="product">
-                <a href="">
+                <a href="" class="product__link">
                   <div class="product__active">
                     <img
                       class="product__foto"
@@ -123,7 +123,7 @@
             </li>
             <li class="card-set__item">
               <article class="product">
-                <a href="">
+                <a href="" class="product__link">
                   <div class="product__active">
                     <img
                       class="product__foto"
@@ -152,7 +152,7 @@
             </li>
             <li class="card-set__item">
               <article class="product">
-                <a href="">
+                <a href="" class="product__link">
                   <div class="product__active">
                     <img
                       class="product__foto"
@@ -182,7 +182,7 @@
             </li>
             <li class="card-set__item">
               <article class="product">
-                <a href="">
+                <a href="" class="product__link">
                   <div class="product__active">
                     <img
                       class="product__foto"
@@ -212,7 +212,7 @@
             </li>
             <li class="card-set__item">
               <article class="product">
-                <a href="">
+                <a href="" class="product__link">
                   <div class="product__active">
                     <img
                       class="product__foto"
@@ -242,7 +242,7 @@
             </li>
             <li class="card-set__item">
               <article class="product">
-                <a href="">
+                <a href="" class="product__link">
                   <div class="product__active">
                     <img
                       class="product__foto"
@@ -272,7 +272,7 @@
             </li>
             <li class="card-set__item">
               <article class="product">
-                <a href="">
+                <a href="" class="product__link">
                   <div class="product__active">
                     <img
                       class="product__foto"
@@ -302,7 +302,7 @@
             </li>
             <li class="card-set__item">
               <article class="product">
-                <a href="">
+                <a href="" class="product__link">
                   <div class="product__active">
                     <img
                       class="product__foto"
@@ -332,7 +332,7 @@
             </li>
             <li class="card-set__item">
               <article class="product">
-                <a href="">
+                <a href="" class="product__link">
                   <div class="product__active">
                     <img
                       class="product__foto"
@@ -368,7 +368,7 @@
     <!-- подвал -->
     <footer class="footer">
       <div class="footer__page container">
-        <div class="address">
+        <div class="column-address">
           <a class="logo footer__logo" href=""
             >Web<span class="logo__text logo__text--inverse">Studio</span>
           </a>
@@ -395,7 +395,7 @@
           </address>
         </div>
 
-        <div class="join">
+        <div class="column-join">
           <h3 class="join__title">присоединяйтесь</h3>
           <ul class="networks__list">
             <li class="networks__item">
@@ -429,12 +429,12 @@
           </ul>
         </div>
 
-        <div class="subscribe">
+        <div class="column-subscribe">
           <h3 class="subscribe__title">Подпишитесь на рассылку</h3>
           <form class="form-footer">
             <input class="form-footer__input" type="email" name="mail" placeholder="E-mail" />
 
-            <button type="submit" class="button footer__button">
+            <button class="button footer__button" type="submit">
               Подписаться
               <span class="button__icon"></span
               ><svg width="24" height="24">

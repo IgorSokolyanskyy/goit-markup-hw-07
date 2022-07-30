@@ -1,0 +1,63 @@
+/* чекбокс */
+.options {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 30px;
+
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.options__checkbox {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  position: absolute;
+
+  &:checked + .options__icon {
+    background-color: $accent-color;
+    border: none;
+  }
+  &:focus + .options__icon,
+  &:hover + .options__icon {
+    border-color: $accent-color;
+  }
+}
+
+.options__icon {
+  margin-right: 8px;
+
+  border: 2px solid $primary-text-colot;
+  border-radius: 2px;
+  /* background-origin: border-box; */
+
+  transition: background-color $transition-time $timing-functions,
+    border-color $transition-time $timing-functions;
+
+  cursor: pointer;
+}
+
+.agreement {
+  margin-left: 4px;
+
+  color: $accent-color;
+
+  &::after {
+    position: absolute;
+    content: '';
+
+    right: 12px;
+    bottom: 5px;
+
+    width: 28.5%;
+    height: 0.5px;
+
+    background-color: $accent-color;
+    border-radius: 2px;
+  }
+}
