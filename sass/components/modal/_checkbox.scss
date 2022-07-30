@@ -1,15 +1,8 @@
 /* чекбокс */
 .options {
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
+  @include centeredFlex;
   margin-bottom: 30px;
-
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
 }
 
 .options__checkbox {
@@ -44,7 +37,6 @@
 
 .agreement {
   margin-left: 4px;
-
   color: $accent-color;
 
   &::after {

@@ -20,8 +20,7 @@
   transition: box-shadow v$transition-time $timing-functions;
   &:hover,
   &:focus {
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-      1px 4px 6px rgba(0, 0, 0, 0.16);
+    box-shadow: $card-set__product-box-shadow;
   }
 }
 .product__link {
@@ -48,10 +47,9 @@
   position: absolute;
   top: 0;
   left: 0;
-
   width: 100%;
   height: 100%;
-  background-color: rgba(33, 150, 243, 0.9);
+  background-color: $overlay-background-color;
 
   transform: translateY(100%);
 
@@ -76,15 +74,13 @@
 .product__text {
   font-size: 18px;
   line-height: 1.5;
-  letter-spacing: 0.03em;
   color: $primary-white-color;
 }
 
 .product__meta {
   padding-left: 24px;
   padding-right: 24px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  @include paddings(20px);
 
   border-left: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
@@ -102,7 +98,6 @@
 }
 
 .product__price {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
 }

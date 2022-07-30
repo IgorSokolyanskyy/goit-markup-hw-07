@@ -20,7 +20,7 @@
 
   border-radius: 50%;
 
-  fill: #afb1b8;
+  fill: $primary-fill-colot;
   background-color: $primary-white-color;
 
   cursor: pointer;
@@ -37,5 +37,5 @@
 /* присоединяйтесь */
 .footer__icon {
   fill: $primary-white-color;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: $footer__icon-background-color;
 }

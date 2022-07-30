@@ -1,5 +1,5 @@
-.section-description__page {
-  @include padding94;
+.section-description {
+  @include paddings(94px);
 }
 .description-card__list {
   display: flex;
@@ -11,18 +11,16 @@
 
 .description-card__icon {
   @include centeredFlex;
-
   height: 120px;
   margin-bottom: 30px;
-
   background: $secondry-background-color;
   border-radius: 4px;
 }
 .description-card__subtitle {
   margin-bottom: 10px;
 
-  line-height: 1.14;
   font-size: 14px;
+  line-height: 1.14;
 
   text-transform: uppercase;
 }

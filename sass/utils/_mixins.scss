@@ -28,14 +28,14 @@
     text-decoration: none;
   }
 }
-@mixin padding94 {
-  padding-top: 94px;
-  padding-bottom: 94px;
+@mixin paddings($size...) {
+  padding-top: $size;
+  padding-bottom: $size;
 }
 
-@mixin centeredFlex($type: flex, $jfc: center) {
+@mixin centeredFlex($type: flex, $justifyContent: center) {
   display: $type;
-  justify-content: $jfc;
+  justify-content: $justifyContent;
   align-items: center;
 }
 

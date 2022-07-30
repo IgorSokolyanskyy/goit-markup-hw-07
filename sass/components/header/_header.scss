@@ -1,6 +1,6 @@
 .header {
   max-height: 80px;
-  border-bottom: 1px solid #ececec;
+  border-bottom: 1px solid $header-border;
 }
 .header__page {
   display: flex;

@@ -1,6 +1,6 @@
 /* постоянные клиенты */
 .section-clients {
-  @include padding94;
+  @include paddings(94px);
 }
 
 .clients-card__list {

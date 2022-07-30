@@ -278,6 +278,8 @@ body a {
 .hero {
   width: 1600px;
   height: 600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: #2f303a;
   margin-left: auto;
   margin-right: auto;
@@ -291,8 +293,6 @@ body a {
 
 .hero__main {
   width: 696px;
-  padding-top: 200px;
-  padding-bottom: 200px;
 }
 
 .hero__title-heading {
@@ -305,7 +305,7 @@ body a {
   text-transform: uppercase;
 }
 
-.section-description__page {
+.section-description {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -341,8 +341,8 @@ body a {
 
 .description-card__subtitle {
   margin-bottom: 10px;
-  line-height: 1.14;
   font-size: 14px;
+  line-height: 1.14;
   text-transform: uppercase;
 }
 
@@ -350,7 +350,7 @@ body a {
   color: #757575;
 }
 
-.section-works__page {
+.section-works {
   padding-bottom: 94px;
 }
 
@@ -382,7 +382,6 @@ body a {
 
 .works-foto__subtitle {
   color: #ffffff;
-  font-size: 14px;
   line-height: 1.14;
   text-align: center;
   text-transform: uppercase;
@@ -437,7 +436,6 @@ body a {
 .command-card__price {
   margin-bottom: 16px;
   color: #757575;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
 }
@@ -493,6 +491,8 @@ body a {
 
 /* футер */
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #2f303a;
 }
 
@@ -503,8 +503,10 @@ body a {
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
-  padding-top: 60px;
-  padding-bottom: 60px;
+}
+
+.column-address {
+  margin-right: 70px;
 }
 
 .address__item {
@@ -518,25 +520,25 @@ body a {
 .address__location {
   color: #ffffff;
   font-style: normal;
-  font-weight: 400;
 }
 
 .address__contacts {
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
-  font-weight: 400;
+}
+
+.address__contacts:hover, .address__contacts:focus {
+  color: #2196f3;
 }
 
 /* присоединяйтесь */
 .column-join {
   margin-right: 94px;
-  margin-left: 70px;
 }
 
 .join__title {
   margin-bottom: 20px;
   color: #ffffff;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -544,7 +546,6 @@ body a {
 .subscribe__title {
   margin-bottom: 20px;
   color: #ffffff;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -606,6 +607,7 @@ body a {
   top: 50%;
   left: 50%;
   min-width: 528px;
+  padding: 40px;
   -webkit-transform: translate(-50%, -50%) scale(1);
           transform: translate(-50%, -50%) scale(1);
   opacity: 1;
@@ -620,19 +622,12 @@ body a {
 }
 
 /* форма */
-.form-modal {
-  width: 528px;
-  padding: 40px;
-}
-
 .form-modal__title {
   margin-bottom: 12px;
-  color: #212121;
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .label-group {
@@ -656,10 +651,10 @@ body a {
   padding-left: 42px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  outline: none;
   cursor: pointer;
   -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  outline: none;
 }
 
 .label-group__input:hover, .label-group__input:focus {
@@ -731,9 +726,6 @@ textarea::placeholder {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 30px;
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
 }
 
 .options__checkbox {
