@@ -11,13 +11,6 @@
   font-size: 26px;
   line-height: 1.2;
 }
-@mixin container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 @mixin utils {
   h1,

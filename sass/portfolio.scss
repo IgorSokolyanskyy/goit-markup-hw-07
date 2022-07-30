@@ -4,7 +4,6 @@
 
 @import './components/reuses/logo';
 @import './components/reuses/button';
-@import './components/reuses/title';
 @import './components/reuses/networks';
 
 @import './components/body';
@@ -13,21 +12,10 @@
 @import './components/header/site-nav';
 @import './components/header/auth-nav';
 
-@import './components/main/hero';
-
-@import './components/main/section-description';
-
-@import './components/main/section-works';
-
-@import './components/main/section-command';
-
-@import './components/main/section-clients';
+@import './components/portfolio/section-portfolio';
+@import './components/portfolio/button__list';
+@import './components/portfolio/card-set';
 
 @import './components/footer/footer';
 @import './components/footer/column-join';
 @import './components/footer/column-subscribe';
-
-@import './components/modal/beckdrop';
-@import './components/modal/modal';
-@import './components/modal/form';
-@import './components/modal/checkbox';
