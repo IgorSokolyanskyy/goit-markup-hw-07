@@ -1,5 +1,5 @@
 .section-description {
-  @include paddings(94px);
+  @include paddings(94px 0);
 }
 .description-card__list {
   display: flex;

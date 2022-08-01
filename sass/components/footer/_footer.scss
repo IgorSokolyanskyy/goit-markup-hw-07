@@ -1,6 +1,6 @@
 /* футер */
 .footer {
-  @include paddings(60px);
+  @include paddings(60px 0);
   background-color: $footer-background-color;
 }
 
@@ -9,6 +9,7 @@
   align-items: baseline;
 }
 .column-address {
+  width: 231px;
   margin-right: 70px;
 }
 

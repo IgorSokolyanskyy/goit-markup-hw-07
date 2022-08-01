@@ -14,9 +14,7 @@
 
 .networks__icon {
   @include centeredFlex;
-
-  width: 44px;
-  height: 44px;
+  @include widthHeigh(44px, 44px);
 
   border-radius: 50%;
 

@@ -1,7 +1,6 @@
 .hero {
-  width: 1600px;
-  height: 600px;
-  @include paddings(200px);
+  @include widthHeigh(1600px, 600px);
+  @include paddings(200px 0);
 
   background-color: $footer-background-color;
   margin-left: auto;
@@ -11,8 +10,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
-  text-align: center;
 }
 .hero__main {
   width: 696px;
@@ -28,4 +25,5 @@
 
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  text-align: center;
 }

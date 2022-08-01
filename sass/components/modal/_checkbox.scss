@@ -45,9 +45,7 @@
 
     right: 12px;
     bottom: 5px;
-
-    width: 28.5%;
-    height: 0.5px;
+    @include widthHeigh(28.5%, 0.5px);
 
     background-color: $accent-color;
     border-radius: 2px;

@@ -1,6 +1,6 @@
 /* постоянные клиенты */
 .section-clients {
-  @include paddings(94px);
+  @include paddings(94px 0);
 }
 
 .clients-card__list {
@@ -21,9 +21,7 @@
 
 .clients-card__icon {
   @include centeredFlex;
-
-  width: 170px;
-  height: 92px;
+  @include widthHeigh(170px, 92px);
 
   border: 1px solid $primary-fill-colot;
   border-radius: 4px;

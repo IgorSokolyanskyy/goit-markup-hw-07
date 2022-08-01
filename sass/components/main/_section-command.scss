@@ -1,6 +1,6 @@
 /* наша команда */
 .section-command {
-  @include paddings(94px);
+  @include paddings(94px 0);
 
   background-color: $secondry-background-color;
 }
@@ -21,7 +21,7 @@
 }
 
 .command-card__meta {
-  @include paddings(30px);
+  @include paddings(30px 0);
   text-align: center;
 }
 

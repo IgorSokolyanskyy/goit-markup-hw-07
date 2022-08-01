@@ -1,11 +1,13 @@
 .button {
-  width: 200px;
-  height: 50px;
+  @include centeredFlex;
+  @include widthHeigh(200px, 50px);
+  @include margins(0 auto);
+  padding: 0;
 
+  @include buttonSizes;
   color: $primary-white-color;
   background-color: $accent-color;
   // font-family: inherit;
-  @include buttonSize;
 
   border: 1px solid $button-border;
   border-radius: 4px;
@@ -20,24 +22,21 @@
 
 // футер
 .footer__button {
-  @include centeredFlex;
+  // @include centeredFlex;
   gap: $gap10;
 }
 
-// бэкдроп кнопка залытия
+// бэкдроп кнопка закрытия
 .backdrop__button {
   position: absolute;
   top: 8px;
   right: 8px;
 
-  @include centeredFlex;
-  width: 30px;
-  height: 30px;
-  padding: 0;
+  @include widthHeigh(30px, 30px);
 
   background-color: $primary-background-color;
-  border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
 
   transition: fill $transition-time $timing-functions;
   cursor: pointer;
@@ -45,11 +44,4 @@
   &:focus {
     fill: $accent-color;
   }
-}
-
-// модальная кнопка
-.button--big {
-  @include centeredFlex;
-  margin-right: auto;
-  margin-left: auto;
 }

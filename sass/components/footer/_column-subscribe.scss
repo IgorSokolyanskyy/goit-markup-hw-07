@@ -11,12 +11,9 @@
 }
 
 .form-footer__input {
-  width: 358px;
-  height: 50px;
-
+  @include widthHeigh(358px, 50px);
+  @include paddings(16px 15px);
   margin-right: 12px;
-  padding: 16px 15px;
-
   color: $primary-white-color;
   font-size: 16px;
 

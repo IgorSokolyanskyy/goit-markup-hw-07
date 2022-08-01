@@ -2,25 +2,17 @@
 .portfolio-button__list {
   @include centeredFlex;
   margin-bottom: 50px;
-}
-
-.portfolio-button__item {
-  margin-right: 8px;
-  &:last-child {
-    margin-right: 0;
-  }
+  gap: $gap8;
 }
 
 .portfolio-button__button {
-  padding: 6px 22px;
+  @include paddings(6px 22px);
 
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
 
-  color: $primary-text-colot;
   background-color: $secondry-background-color;
-
   border-radius: 4px;
   border: 1px solid transparent;
 

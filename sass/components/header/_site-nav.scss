@@ -30,8 +30,7 @@
 
     display: block;
 
-    width: 100%;
-    height: 4px;
+    @include widthHeigh(100%, 4px);
 
     background-color: $accent-color;
     border-radius: 2px;

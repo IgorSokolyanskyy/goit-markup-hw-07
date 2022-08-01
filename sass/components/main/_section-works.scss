@@ -1,5 +1,5 @@
 .section-works {
-  padding-bottom: 94px;
+  @include paddings(0 0 94px);
 }
 
 .works-foto__list {
@@ -19,7 +19,7 @@
   width: 100%;
   bottom: 0;
 
-  @include paddings(27px);
+  @include paddings(27px 0);
 
   background: $works-foto__position;
 }
